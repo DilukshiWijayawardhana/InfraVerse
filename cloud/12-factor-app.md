@@ -105,3 +105,200 @@ Instead of using one server:
 - **Horizontal Scaling** → more servers
 
 ---
+
+## 03. Fault Tolerance
+
+### 📌 Definition
+
+Fault tolerance means a system can **continue working even if one or more components fail**.
+
+---
+
+### 💡 Example
+
+- Server 1 ❌ fails
+- Server 2 ✅ still running
+- Server 3 ✅ still running
+
+👉 Users do not experience downtime.
+
+---
+
+### 🎯 Why It Is Important
+
+- Ensures high availability
+- Reduces system downtime
+- Improves reliability
+
+---
+
+### 🧠 Simple Idea
+
+👉 System keeps running even when something breaks
+
+---
+
+## 04. Distributed System
+
+### 📌 Definition
+
+A distributed system is a system where **multiple computers (servers) work together as one system**.
+
+---
+
+### 💡 Example
+
+- Auth Server → handles login
+- Product Server → handles products
+- Order Server → handles orders
+
+👉 All servers work together to form one application.
+
+---
+
+### ⚙️ How It Works
+
+1. User sends request
+2. Request is processed by multiple servers
+3. Servers communicate with each other
+4. Final response is returned to the user
+
+---
+
+### 🎯 Key Features
+
+- Multiple servers
+- Network communication
+- Scalability
+- Fault tolerance
+
+---
+
+### 🧠 Simple Idea
+
+👉 Many systems working together as one
+
+---
+
+## 05. Microservices
+
+### 📌 Definition
+
+Microservices is an architecture where an application is divided into **small independent services**, each responsible for a specific function.
+
+---
+
+### 💡 Example
+
+- Auth Service → login
+- Product Service → products
+- Order Service → orders
+- Payment Service → payments
+
+---
+
+### ⚙️ How It Works
+
+- Each service runs independently
+- Services communicate via APIs (HTTP)
+- Each service can be deployed separately
+
+---
+
+### 🎯 Advantages
+
+- Easy to scale
+- Independent deployment
+- Better fault isolation
+
+---
+
+### ❌ Disadvantages
+
+- More complex system
+- Harder to manage communication
+- Requires monitoring and coordination
+
+---
+
+### 🧠 Simple Idea
+
+👉 One big app → split into many small apps
+
+---
+
+## 06. Portability
+
+### 📌 Definition
+
+Portability means an application can **run in different environments without modification**.
+
+---
+
+### 💡 Example
+
+- Runs on your laptop ✅
+- Runs on server ✅
+- Runs on cloud ✅
+
+👉 Same application works everywhere.
+
+---
+
+### 🎯 Why It Is Important
+
+- Avoids environment issues
+- Ensures consistency
+- Makes deployment easier
+
+---
+
+### 🧠 Tools Used
+
+- Containers (e.g., Docker)
+
+---
+
+### 🧠 Simple Idea
+
+👉 Run the same app anywhere
+
+---
+
+## 07. Modern Cloud Platform
+
+### 📌 Definition
+
+A modern cloud platform provides **computing resources like servers, storage, and networking over the internet**.
+
+---
+
+### 💡 Examples
+
+- Amazon Web Services (AWS)
+- Microsoft Azure
+- Google Cloud Platform
+
+---
+
+### 🎯 Features
+
+- On-demand resources
+- Auto scaling
+- High availability
+- Pay-as-you-use model
+
+---
+
+### 💡 Real Example
+
+Instead of buying a physical server:
+👉 You can create a virtual server in minutes using cloud services.
+
+---
+
+### 🧠 Simple Idea
+
+👉 Rent IT resources online instead of owning them
+
+---
