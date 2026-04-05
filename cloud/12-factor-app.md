@@ -27,7 +27,6 @@ There are two main types:
 
 ![vertical_and_horizontal_scaling](https://github.com/user-attachments/assets/3f365634-26e8-4e74-8f6d-3b28424c2e82)
 
-
 ---
 
 ## 1. Vertical Scaling (Scale Up)
@@ -103,6 +102,103 @@ Instead of using one server:
 - **Scalability** → system can grow with demand
 - **Vertical Scaling** → bigger server
 - **Horizontal Scaling** → more servers
+
+---
+
+## 02. Load Balancing
+
+### 📌 Definition
+
+Load balancing is the process of **distributing incoming network traffic across multiple servers** to ensure no single server becomes overloaded.
+
+---
+
+### 💡 Example
+
+Without load balancing:
+
+- 1000 users → 1 server → ❌ server may crash
+
+With load balancing:
+
+- 1000 users → divided across 3 servers → ✅ system runs smoothly
+
+---
+
+### ⚙️ How It Works
+
+1. User sends request
+2. Request goes to load balancer
+3. Load balancer forwards request to one of the servers
+4. Server processes request and returns response
+
+---
+
+### 🔁 Workflow
+
+```text
+User → Load Balancer → Server 1 / Server 2 / Server 3 → Response
+```
+
+---
+
+### 🎯 Types of Load Balancing
+
+#### 1. Round Robin
+
+- Requests are distributed equally in order
+- Example: Server1 → Server2 → Server3 → repeat
+
+---
+
+#### 2. Least Connections
+
+- Sends request to server with fewer active connections
+
+---
+
+#### 3. IP Hash
+
+- Same user always goes to the same server
+
+---
+
+### 🎯 Advantages
+
+- Improves performance
+- Prevents server overload
+- Increases availability
+- Supports scalability
+
+---
+
+### ❌ Disadvantages
+
+- Additional setup complexity
+- Requires monitoring and configuration
+
+---
+
+### 🧠 Simple Idea
+
+👉 Load balancer acts like a **traffic controller**, distributing requests to multiple servers efficiently.
+
+---
+
+### 🛠️ Common Tools
+
+- Nginx
+- HAProxy
+- Cloud Load Balancers (AWS, Azure, GCP)
+
+---
+
+### 🚀 Real-World Use Case
+
+In modern applications:
+
+- Load balancer works with microservices
+- Helps distribute traffic between multiple containers or servers
 
 ---
 
