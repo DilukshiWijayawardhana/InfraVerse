@@ -25,6 +25,9 @@ Scalability means a system can **handle more users or traffic as demand increase
 
 There are two main types:
 
+![vertical_and_horizontal_scaling](https://github.com/user-attachments/assets/3f365634-26e8-4e74-8f6d-3b28424c2e82)
+
+
 ---
 
 ## 1. Vertical Scaling (Scale Up)
